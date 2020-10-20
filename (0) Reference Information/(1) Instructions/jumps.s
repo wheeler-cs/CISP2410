@@ -21,48 +21,48 @@ main:
 	# all jump commands follow the same format of [jumpType] [labelToJumpTo]
 
 	# je (jump if equal)
-	je equalNum			# rbx == rax
+	je equal_num		# rbx == rax
 
 	# jne (jump if not equal)
-	jne notEqual		# rbx != rax
+	jne not_equal		# rbx != rax
 
 	# jg (jump if greater than)
-	jg greaterThan		# rbx > rax
+	jg greater_than		# rbx > rax
 
 	# jl (jump if less than)
-	jl lessThan			# rbx < rax
+	jl less_than		# rbx < rax
 
 	# jge (jump if greater than or equal)
-	jge greaterEqual	# rbx >= rax
+	jge greater_equal	# rbx >= rax
 
 	# jle (jump if less than or equal)
-	jle lessEqual		# rbx <= rax
+	jle less_equal		# rbx <= rax
 
 	# jmp (unconditional jump)
 	jmp quit			# jump to quit
 
 
-equalNum:
+equal_num:
 	incq %rax			# rax++
 	jmp quit
 
-notEqual:
+not_equal:
 	decq %rax			# rax--
 	jmp quit
 
-greaterThan:
+greater_than:
 	movq %rax, %rbx		# rbx = rax
 	jmp quit
 
-lessThan:
+less_than:
 	movq %rbx, %rax		# rax = rbx
 	jmp quit
 
-greaterEqual:
+greater_equal:
 	movq $5, %rax		# rax = 5
 	jmp quit
 
-lessEqual:
+less_equal:
 	movq $5, %rbx		# rbx = 5
 	jmp quit
 

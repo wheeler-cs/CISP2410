@@ -20,10 +20,10 @@ main:
 #	operand2 can only be a register or label/memory
 
 	cmp %rbx, %rax		# compare rbx to rax
-	je sameNum			# if rax == rbx; jump to sameNum
+	je same_num			# if rax == rbx; jump to sameNum
 	jmp quit			# jump to quit
 
-sameNum:			# rbx and rax are same num
+same_num:			# rbx and rax are same num
 	incq %rax			# rax++
 
 quit:				# program termination procedures

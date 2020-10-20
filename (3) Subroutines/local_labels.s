@@ -29,7 +29,13 @@ quit:
 	retq
 	
 
-
+# add_nums calculates the sum of two quads
+# Parameters on stack:
+#	num_A
+#	num_B
+# Returns sum of num_A and num_B in rax
+# Register usage:
+#	rbx: General-use register to act as intermediate for addition
 .type add_nums, @function
 add_nums:
 
