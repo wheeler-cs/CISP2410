@@ -1,9 +1,19 @@
 # CISP_2410 Assembly Programs
-Programs placed here are programs that were written for a computer organization and architecture course. They are written in IA-64 assembly using AT&T syntax.
+Assembly programs are written in IA-64 assembly using AT&T syntax (GAS assembly syntax).
 
-Feel free to use them as reference for your own projects and assignments, but be warned that if you are using them for school, your institution might flag
-them for plagarism if they are simply copied and pasted into an assignment. Also, the .quad data type is used almost exclusively as the only data type throughout
-the entirety of the course.
+The .quad (quad word, 8-byte) data type was used exclusively for these programs since this is just an introductory course to assembly concepts.
 
 Programs were compiled, ran, and debugged in [Online GDB](https://www.onlinegdb.com/), but this could be done in a desktop environment as well with the right
-tools.
+tools (GDB and g++ in a Linux environment).
+
+
+# CISP_2410 Arduino Programs
+Arduino programs are written using C++ with Arduino functions.
+
+The Arduino Uno was used as the development board the were programs ran on. The board diagrams are XML files compatible with TinkerCAD's online workspace.
+
+Programs and circuits were written and designed in [TinkerCAD](https://www.tinkercad.com/learn/circuits), but could be adapted to a physical Arduino board and the 
+[Arduino IDE](https://www.arduino.cc/en/software) quite easily.
+
+
+Feel free to use these programs as reference or a starting-off point for your own projects.
