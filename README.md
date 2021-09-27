@@ -1,3 +1,8 @@
+### Important Update: September 27, 2021
+I have decided to archive this repository as it has been nearly a year since this course was taken. Nothing should change within the repository and all code
+and projects should be final. However, if in the future something should arise that would necessitate a change to content, the repository would be temporarily
+unarchived (dearchived?) while the required fixes were implemented.
+
 # CISP_2410 Assembly Programs
 Assembly programs are written in IA-64 assembly using AT&T syntax (GAS assembly syntax).
 
